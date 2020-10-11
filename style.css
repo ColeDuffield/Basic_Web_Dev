@@ -1,0 +1,11 @@
+body {
+    padding: 0; /* Box-Model */
+    
+    margin: 0;  /* Positioning */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    font-size: 16px;
+    line-height: 135%;
+    color:black;
+    
+}
