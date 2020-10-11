@@ -4,8 +4,19 @@ body {
     margin: 0;  /* Positioning */
     font-family: Georgia, 'Times New Roman', Times, serif;
 
-    font-size: 16px;
+    font-size: 16px;  /* Typography */
     line-height: 135%;
-    color:black;
+    color:black; 
     
+    background: white; /* Visual */
+}
+
+header {
+    background:steelblue;
+}
+
+h1 {
+    padding: 2px 0;
+
+    font-size: 30px;
 }
