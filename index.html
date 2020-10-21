@@ -10,10 +10,11 @@
      <h1>Brave New World</h1> <!--H1 is mostly used for Titles-->
      <h2>By Cole</h2>    <!--H2 is the Sub-Title-->
      <h3>The Great Journey</h3>  <!--H3 is used for Section Titles-->
-
+    <div class="container">
      <p>
          <i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus deleniti fuga, consectetur, ex voluptate asperiores minus aspernatur perspiciatis quasi blanditiis a nemo odit architecto praesentium rerum eaque reprehenderit at accusamus?</i>
      </p>
+    </div>
      <!--The <p> tag is used for Paragraphs-->
          <br> <!--This is a Page Break tag-->
     
@@ -85,6 +86,19 @@
             <td>$350</td>
         </tr>
     </table>
+    <script type="text/javascript">
+    now = new Date();
+    localtime = now.toString();
+    utctime = now.toGMTString();
+    document.write("<p><strong>Local time:</strong> " + localtime + "</p>");
+    document.write("<p><strong>UTC time:</strong> " + utctime + "</p>");
+    hours = now.getHours();
+    mins = now.getMinutes();
+    secs = now.getSeconds();
+    document.write("<p><strong>");
+    document.write(hours + ":" + mins + ":" + secs);
+    document.write("</p></strong>");
+    </script>
     
 </body>
 </html>
