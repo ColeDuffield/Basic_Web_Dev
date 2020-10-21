@@ -89,9 +89,20 @@
 
     <h3>Event Handler Example</h3>
         <div>
-            <a href="http://www.google.com/" onclick="alert('Hey! An Event!');">Go to Google</a>
+            <a href="http://www.google.com/" onclick="alert('Hey! An Event!');">Go to Google</a> <!--The event handler is defined with the following onclick attribute within the <a> tag that defines a link: onclick="alert('Hey! An Event!');"-->
         </div>
-
+    <br>
+    <h3>Using Custom Go Back and Go forward Buttons</h3>
+        <p>Buttons on this page allow you to go back or forwrd in your history list.</p>
+        <p>these buttons should be the equivalent of the back and forwrd arrow buttons in your browsers's toolbar.</p>
+        <div>
+            <button type="button"
+                onclick="history.back();">Go Back</button>
+            <button type="button"
+                onclick="history.forward();">Go Forward</button>    
+        </div>
+        <br>
+        <hr>
 
     <script type="text/javascript">
     now = new Date();
